@@ -77,12 +77,13 @@ $foundation-palette: (
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+// $dark-gray: #8a8a8a;
+$dark-gray: #6B6A81;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: #221E54;
 $body-font-color: $white;
-$body-font-family: Roboto-regular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-font-family: 'Roboto-regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -131,10 +132,10 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: Roboto-bold;
+$header-font-family: 'Roboto-bold', sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
-$font-family-monospace: roboto-regular, Consolas, 'Liberation Mono', Courier, monospace;
+$font-family-monospace: 'Roboto-regular', Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.2;
 $header-margin-bottom: 0.5rem;
