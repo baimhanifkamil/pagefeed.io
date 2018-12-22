@@ -9,18 +9,32 @@ section {
 
 #main-top-section {
   background: #302C69;
-}
-
-.left-section {
-  padding-top: 170px;
-  height: 480px;
-  .grid-x {
-    margin-top: 30px;
+  .left-section {
+    padding-top: 170px;
+    height: 480px;
+    .grid-x {
+      margin-top: 30px;
+    }
   }
 }
 
-.laptop-header-img {
+#main-bottom-section {
+  background: #302C69;
+  margin-top: -2px;
+  .left-section {
+    margin-top: -120px;
+  }
+  .right-section {
+    .grid-x {
+      margin-top: 30px;
+    }
+  }
+}
 
+
+
+
+.laptop-header-img {
   img {
     margin-left: -40px;
     position: absolute;
@@ -31,6 +45,15 @@ section {
 
 .angle-bottom-light img {
   margin-top: -1px;
+}
+
+.angle-top-light img {
+  width: 100%;
+}
+
+.use-cases-header i {
+  vertical-align: -15%;
+  color: #4BA1FD;
 }
 
 .section2-header p{
