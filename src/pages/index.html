@@ -8,12 +8,23 @@
               <h3>Every digital products have a feed,<br>
                 Keep your visitors in the loop!</h3>
               <p class="subheader">Install a feed in your webpage, let them know what’s up, without leaving your page. Notify them about your latest news, updates and promotions.</p>
-              <div class="grid-x">
+              <form id="contactForm" class="grid-x">
                 <div class="large-6 medium-6 small-6 cell">
-                  <input type="email" placeholder="you@mail.com" class="large-4 medium-4 small-4 cell">
+                  <input type="email" placeholder="you@mail.com" class="large-4 medium-4 small-4 cell" id="email" required>
                 </div>
-                <button type="button" class="button">Create a free account</button>
+                <button type="submit" class="button">
+                  <div class="btn-before-sent">
+                  Create a free account
+                  </div>
+                  <div class="btn-sent">
+                  Email Sent!
+                  </div>
+                </button>
+              </form>
+              <div class="alert-after-sent">
+                Thank you for your interest! Please check your inbox :)
               </div>
+
             </div>
           </div>
           <div class="pt5 large-6 medium-6 cell">
@@ -116,12 +127,24 @@
           <div class="pt5 large-6 medium-6 cell right-section">
             <h3>Try PageFeed Beta for free!</h3>
             <p class="subheader">No credit card required. Create a free account and let us know how we can improve it.</p>
-            <div class="grid-x">
+
+            <form id="contactForm2" class="grid-x">
               <div class="large-6 medium-6 small-6 cell">
-                <input type="email" placeholder="you@mail.com" class="large-4 medium-4 small-4 cell">
+                <input type="email" placeholder="you@mail.com" class="large-4 medium-4 small-4 cell" id="email2" required>
               </div>
-              <button type="button" class="button">Create a free account</button>
+              <button type="submit" class="button">
+                <div class="btn-before-sent2">
+                Create a free account
+                </div>
+                <div class="btn-sent2">
+                Email Sent!
+                </div>
+              </button>
+            </form>
+            <div class="alert-after-sent2">
+              Thank you for your interest! Please check your inbox :)
             </div>
+          
           </div>
         </div>
       </div>

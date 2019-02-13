@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .button {
   box-shadow: 0 2px 14px 0 rgba(117,182,252,0.40);
 }
@@ -68,5 +72,18 @@ section {
 }
 
 .devices-mockup {
+
+}
+
+.btn-sent, .btn-sent2 {
+  display: none;
+  width:138.333px;
+}
+
+.alert-after-sent, .alert-after-sent2 {
+  display: none;
+  padding: 20px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 4px;
 
 }
